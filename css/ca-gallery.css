@@ -87,7 +87,7 @@ body {
     background-color: #eeeeee;
 }
 
-.contact-me{
+.contact-me {
     color: white;
 }
 
@@ -303,9 +303,23 @@ header.masthead .intro-text .intro-heading {
     text-transform: none;
 }
 
+.form-item {
+    min-width: 350px;
+    margin: 30px 0;
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    color: white;
+}
+
+.form-btn{
+    cursor: pointer;
+}
+
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -473,6 +487,11 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.portfolio-img {
+    width: 450px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.237);
 }
 
 .timeline {
@@ -764,13 +783,26 @@ ul.social-buttons li a:hover {
     color: #6cb9c3 !important;
 }
 
+.btn-project {
+    font-weight: 500;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: #eeeeee;
+    border-color: #6cb9c3;
+    color: #6cb9c3;
+}
+
 .btn-primary {
-    font-weight: 700;
+    font-weight: 500;
     color: white;
     border-color: #6cb9c3;
     background-color: #6cb9c3;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+}
+
+.btn-primary a:hover {
+    text-decoration: none;
 }
 
 .btn-primary.focus,
@@ -780,7 +812,8 @@ ul.social-buttons li a:hover {
     background-color: #5a939a;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-project:hover {
     color: white;
     border-color: #4c7b81;
     background-color: #5a939a;
